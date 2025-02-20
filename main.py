@@ -53,5 +53,12 @@ def draw_polygons_from_csv(csv_path, row_idx):
     plt.axis("off")
     plt.show()
 
-# Example usage
-draw_polygons_from_csv("label_validation.csv", 0)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Draw polygons from a CSV file on an image.")
+    parser.add_argument("csv_path", type=str, help="Path to the CSV file.")
+    parser.add_argument("row_idx", type=int, help="Row index of the image in the CSV file.")
+    args = parser.parse_args()
+    
+    draw_polygons_from_csv(args.csv_path, args.row_idx)
+
