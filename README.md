@@ -1,5 +1,8 @@
 # uth-ear-book-dataset
 
+This project provided annotation for ear disease from otoscopic images in the book https://med.uth.edu/orl/online-ear-disease-photo-book/.
+
+
 The CSV annotation file format is described bellow:
 
 | image_url | image_width | image_height | view_annotation_result_Polygon |
