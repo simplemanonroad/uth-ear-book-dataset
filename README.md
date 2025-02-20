@@ -1,5 +1,12 @@
 # uth-ear-book-dataset
 
+The CSV annotation file format is described bellow:
+
+| image_url | image_width | image_height | view_annotation_result_Polygon |
+|-----------|------------|-------------|--------------------------------|
+| https://med.uth.edu/orl/wp-content/uploads/sites/68/2017/10/Ch6_pic5LBL.jpg | 500 | 405 | `[{'points': [...], 'class_name': 'Eardrum'} ...` |
+
+
 You can use the main.py function to visualize the annotation result by using the command:
 
 ```bash
