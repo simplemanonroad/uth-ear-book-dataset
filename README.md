@@ -20,4 +20,3 @@ E.g. You want to visualize the annotation of first image:
 python main.py label_validation.csv 0
 ```
 You will get result like the sample as bellow:
-![Alt text](assests/eg1.png#2?raw=true "Visualization result")
